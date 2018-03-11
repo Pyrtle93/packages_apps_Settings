@@ -191,6 +191,13 @@
             settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
 
         <SwitchPreference
+            android:key="high_touch_sensitivity_enable"
+            android:title="@string/high_touch_sensitivity_title"
+            android:summary="@string/high_touch_sensitivity_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.touch.HighTouchSensitivitySettingsPreferenceController" />
+
+        <SwitchPreference
             android:key="show_operator_name"
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
