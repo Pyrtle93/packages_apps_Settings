@@ -190,7 +190,7 @@
             android:summary="@string/touch_sensitivity_summary"
             settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
 
-        <SwitchPreference
+        <com.xtended.support.preferences.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
